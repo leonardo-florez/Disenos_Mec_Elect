@@ -11064,14 +11064,10 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U1" gate="A" pin="INA+"/>
-<wire x1="30.48" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="12.7" y1="-7.62" x2="12.7" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="INB+"/>
 <wire x1="12.7" y1="-12.7" x2="12.7" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="-12.7" x2="12.7" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="12.7" y="-12.7"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="INC+"/>
@@ -11164,18 +11160,6 @@ Source: www.johnsoncomponents.com .. J502-ND.pdf</description>
 <junction x="27.94" y="78.74"/>
 <wire x1="27.94" y1="53.34" x2="17.78" y2="53.34" width="0.1524" layer="91"/>
 <label x="17.78" y="53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="OUTA"/>
-<wire x1="30.48" y1="-2.54" x2="17.78" y2="-2.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="INA-"/>
-<wire x1="30.48" y1="-5.08" x2="17.78" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="INB-" class="0">
